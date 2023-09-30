@@ -10,7 +10,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Header = () => {
     return (
-        <Container>
+        <Container className="pt-5">
             <div className="text-center">
                 <img src={logo} alt="" />
                 <p className="mt-3">Journalism Without Fear or Favour</p>
@@ -18,7 +18,7 @@ const Header = () => {
             </div>
             <div className="d-flex bg-body-tertiary p-4">
                 <Button variant="danger">Latest</Button>{' '}
-                <Marquee className="ps-2 text-danger" speed={70}>Match Highlights: Germany vs Spain — as it happened   !   Match Highlights: Germany vs Spain as...</Marquee>
+                <Marquee className="ps-2 text-danger fw-bold" speed={70}>Match Highlights: Germany vs Spain — as it happened   !   Match Highlights: Germany vs Spain as...</Marquee>
             </div>
             <div>
                 <Navbar collapseOnSelect expand="lg" className="">
