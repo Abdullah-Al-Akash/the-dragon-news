@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import BottomSection from './BottomSection';
 
 const LeftNav = () => {
     const [categories, setCategories] = useState([]);
@@ -28,6 +29,7 @@ const LeftNav = () => {
                     </p>)
                 }
             </div>
+            <BottomSection></BottomSection>
         </div>
     );
 };
